@@ -12,15 +12,15 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'mypackage'
-DESCRIPTION = 'My short description for my project. '
-URL = 'https://github.com/me/myproject'
-EMAIL = 'me@example.com'
-AUTHOR = 'Awesome Soul'
+NAME = 'jupyterpylint'
+DESCRIPTION = 'jupyter pylint magic'
+URL = 'https://github.com/zachglassman/jupyterpylint'
+EMAIL = 'zach.glassman@gmail.com'
+AUTHOR = 'Zachary Glassman'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    # 'requests', 'maya', 'records',
+    'notebook'
 ]
 
 # The rest you shouldn't have to touch too much :)
